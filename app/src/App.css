@@ -1,0 +1,88 @@
+.hide {
+  display:none;
+}
+
+#left:before {
+  content:'\f0d9';
+  font-family: FontAwesome;
+}
+
+#right:before {
+  font-family: FontAwesome;
+  content: "\f0da";
+}
+
+#up,#down {
+  width:100%;
+}
+
+.controls {
+  text-align:center;
+  float:left;
+  width:33%;
+}
+
+.controls .inner {
+  max-width:250px;
+}
+
+.apps {
+  width:33%;
+  float:left;
+}
+
+.controls button {
+  text-align: center;
+}
+
+#left, #home, #right {
+  width:33.3%;
+  float:left;
+}
+
+#up:before {
+    font-family: FontAwesome;
+    content: "\f0d8";
+}
+
+#down:before {
+  font-family: FontAwesome;
+  content:'\f0d7';
+}
+
+.volumes {
+  width:33%;
+  float:left;
+  text-align: center;
+}
+
+.volumes #up {
+  font-family: FontAwesome;
+    content: "\f0d8";
+}
+
+#home:before {
+  font-family: FontAwesome;
+  content:'\f015';
+  margin-left:-2px;
+}
+
+#select:before {
+  font-family: FontAwesome;
+  content:'\f164';
+}
+
+#netflix {
+  text-transform: uppercase;
+  font-size:16px;
+  background-color:red;
+  color:#fff;
+  padding:15px 30px;
+  border-radius:10px;
+}
+
+.button {
+  border:none;
+  background-color:transparent;
+  font-size:40px;
+}
