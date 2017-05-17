@@ -20,10 +20,12 @@ class App extends Component {
   componentDidMount() {
   	const socket = io.connect(`http://localhost:${consts.socketPort}`);
       socket.on('connected', ()=>{
+      	alert("Your TV is connected");
       	this.setState({
       		connected:'show'
       	});
       });
+      socket.emit('new', true);
   }
 
   render() {
